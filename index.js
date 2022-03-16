@@ -10,7 +10,7 @@ window.addEventListener("keydown", (e)=>{
 })
 const removeTransit=(e)=>{
   if(e.propertyName !=="transform")return;
-  e.classList.remove("playing")
+  e.target.classList.remove('playing');
 }
 const allKeys=document.querySelectorAll(".key");
 allKeys.forEach(element => {

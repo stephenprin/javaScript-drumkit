@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url("./background.jpg") bottom center;
+  background: url("./church.jpg") bottom center;
   background-size: cover;
 }
 
@@ -36,8 +36,8 @@ html {
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #ffffff;
+  box-shadow: 0 0 1rem #f8f8f7;
 }
 
 kbd {
